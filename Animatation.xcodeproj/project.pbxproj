@@ -13,6 +13,8 @@
 		4B9432D51E59BC17001CD5FA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4B9432D31E59BC17001CD5FA /* Main.storyboard */; };
 		4B9432D71E59BC17001CD5FA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4B9432D61E59BC17001CD5FA /* Assets.xcassets */; };
 		4B9432DA1E59BC17001CD5FA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4B9432D81E59BC17001CD5FA /* LaunchScreen.storyboard */; };
+		4B9432E31E59BD4F001CD5FA /* PFbaseProgressView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B9432E21E59BD4F001CD5FA /* PFbaseProgressView.m */; };
+		4B9432E61E59C430001CD5FA /* PFProgressView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B9432E51E59C430001CD5FA /* PFProgressView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +28,10 @@
 		4B9432D61E59BC17001CD5FA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4B9432D91E59BC17001CD5FA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		4B9432DB1E59BC17001CD5FA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4B9432E11E59BD4F001CD5FA /* PFbaseProgressView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PFbaseProgressView.h; sourceTree = "<group>"; };
+		4B9432E21E59BD4F001CD5FA /* PFbaseProgressView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PFbaseProgressView.m; sourceTree = "<group>"; };
+		4B9432E41E59C430001CD5FA /* PFProgressView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PFProgressView.h; sourceTree = "<group>"; };
+		4B9432E51E59C430001CD5FA /* PFProgressView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PFProgressView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +68,10 @@
 				4B9432CE1E59BC17001CD5FA /* AppDelegate.m */,
 				4B9432D01E59BC17001CD5FA /* ViewController.h */,
 				4B9432D11E59BC17001CD5FA /* ViewController.m */,
+				4B9432E11E59BD4F001CD5FA /* PFbaseProgressView.h */,
+				4B9432E21E59BD4F001CD5FA /* PFbaseProgressView.m */,
+				4B9432E41E59C430001CD5FA /* PFProgressView.h */,
+				4B9432E51E59C430001CD5FA /* PFProgressView.m */,
 				4B9432D31E59BC17001CD5FA /* Main.storyboard */,
 				4B9432D61E59BC17001CD5FA /* Assets.xcassets */,
 				4B9432D81E59BC17001CD5FA /* LaunchScreen.storyboard */,
@@ -150,8 +160,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4B9432E31E59BD4F001CD5FA /* PFbaseProgressView.m in Sources */,
 				4B9432D21E59BC17001CD5FA /* ViewController.m in Sources */,
 				4B9432CF1E59BC17001CD5FA /* AppDelegate.m in Sources */,
+				4B9432E61E59C430001CD5FA /* PFProgressView.m in Sources */,
 				4B9432CC1E59BC17001CD5FA /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -264,7 +276,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = Animatation/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = pengfei.com.Animatation;
+				PRODUCT_BUNDLE_IDENTIFIER = COM.ZDCX.ZDCXYH;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
@@ -275,7 +287,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = Animatation/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = pengfei.com.Animatation;
+				PRODUCT_BUNDLE_IDENTIFIER = COM.ZDCX.ZDCXYH;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
@@ -299,6 +311,7 @@
 				4B9432E01E59BC17001CD5FA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
